@@ -42,7 +42,7 @@ print("Please enter the following information for prediction:")
 new_input_values = {
     'TotalMinutesAsleep': int(input("Enter Total Minutes Asleep: ")),
     'BedtimeRoutine': int(input("Enter Bedtime Routine (minutes): ")),
-    'SleepQuality': float(input("Enter Sleep Quality: ")),
+    'SleepQuality': float(input("Enter Sleep Quality (Sleep Quality = BedTimeRoutine/TotalMinutesAsleep): ")),
     'TotalSteps': int(input("Enter Total Steps: ")),
     'SedentaryMinutes': int(input("Enter Sedentary Minutes: ")),
     'ModeratelyActiveMinutes': int(input("Enter Moderately Active Minutes: "))
